@@ -2,8 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        int albin=20000000;
-
+        System.out.println("Grupi ma i mire");
     }
 }
