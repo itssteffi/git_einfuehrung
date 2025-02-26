@@ -5,7 +5,8 @@ public class Main {
         System.out.println("Grupi ma i mire");
         System.out.println("Hallo");
 
-
+        Rechteck rechteck = new Rechteck(5, 4, 2);
+        System.out.println("Volumen des Quaders: " + rechteck.calcVolumen(5));
     }
 
 
