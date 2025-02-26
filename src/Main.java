@@ -7,6 +7,9 @@ public class Main {
 
         Rechteck rechteck = new Rechteck(5, 4, 2);
         System.out.println("Volumen des Quaders: " + rechteck.calcVolumen(5));
+
+        DreieckPyramide pyramid = new DreieckPyramide(6, 4, 10);
+        System.out.println("Volume of the pyramid: " + pyramid.calcVolumen(10));
     }
 
 
