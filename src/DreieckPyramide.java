@@ -3,9 +3,10 @@ public class DreieckPyramide extends Volume {
     double baseLength;
     double baseHeight;
     public DreieckPyramide(double baseLength, double baseHeight, double hohe) {
+        super(hohe);
         this.baseLength = baseLength;
         this.baseHeight = baseHeight;
-        this.hohe = hohe;
+
     }
 
     @Override
